@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiteDB" Version="4.1.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ubisoft.Club.Common\Ubisoft.Club.Common.csproj" />
+  </ItemGroup>
+</Project>
