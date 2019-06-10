@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ubisoft.Club.Common\Ubisoft.Club.Common.csproj" />
+    <ProjectReference Include="..\Ubisoft.Club.Db\Ubisoft.Club.Db.csproj" />
+  </ItemGroup>
+
+</Project>

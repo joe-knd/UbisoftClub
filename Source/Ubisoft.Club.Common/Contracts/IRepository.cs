@@ -4,7 +4,7 @@ using LiteDB;
 
 namespace Ubisoft.Club.Common.Contracts
 {
-    public interface IRepository<T> where T : class 
+    public interface IRepository<T> where T : class
     {
         T Create(T model);
         void Update(T model);
